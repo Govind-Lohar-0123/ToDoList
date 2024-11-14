@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <nav>
+                <ul class="dropdown">
+                    <li><button onclick="showTasks('all')">Show All The Tasks</button></li>
+                    <li><button onclick="showTasks('marked')">Show Marked Tasks</button></li>
+                    <li><button onclick="showTasks('unmarked')">Show UnMarked Tasks</button></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
+            <section>
+                <h2 style="color:white;background-color:red;text-align: center;padding:10px">Add The Tasks</h2>
+                <div class="add-task-div">
+                    <input type="text" class="get-task" placeholder="Add The Tasks">
+                    <button class="add-task" onclick="addTaskBtn()">Add Task</button>
+                </div>
+
+            </section>
+            <section>
+                <h2 style="color:white;background-color:red;text-align: center;padding:10px">Search/Filter Task</h2>
+                <div style="display: flex; align-items: center;gap:10px"><input type="text" name="" class="search-bar" placeholder="Search Task">
+                    <button onclick="searchTask()">Search</button>
+                </div>
+                <div class="task-div"></div>
+            </section>
+        </div>
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.dropdown{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    
+}
+main > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main section{
+    width: 40%;
+    background-color: black;
+    height:600px;
+}
+.add-task-div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.add-task-div input{
+    padding: 10px;
+    outline: none;
+    border: none;
+    font-size: bold;
+    width:300px
+}
+.search-bar{
+    margin-inline: auto;
+    display: block;
+    padding: 10px;
+    outline: none;
+    width: 80%;
+}
+.task-list{
+    margin-inline: auto;
+    list-style-type:upper-alpha;
+
+    width:80%
+}
+.task-list li{
+    margin-bottom: 20px;
+}
